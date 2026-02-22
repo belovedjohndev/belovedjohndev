@@ -1,59 +1,43 @@
-#  Hi, I’m John — Independent Digital Systems Developer
+# John Paul Libagh
 
-I build **practical, custom-coded digital solutions for real businesses** — from inventory & POS systems to automation tools and secure internal platforms.  
-I focus on **real-world outcomes**, not templates.
-
- Based in Cambodia ·  Open to remote freelance & contract work
+Backend developer learning by building production-style systems in public.
 
 ---
 
-##  What I Build
+## Current Focus
 
-I design and deliver digital systems that help businesses operate better, including:
-
-###  Business Solutions
-- Inventory & management systems  
-- POS systems  
-- Church & organization management platforms  
-- Automation bots (Telegram, Messenger)  
-- Data scraping & price monitoring tools  
-- Invoice & receipt generators
-
-###  Web & Security
-- Custom business websites  
-- Security audits & hardening  
-- Website upgrades for increased leads
+- PostgreSQL (transactions, constraints, indexing)
+- TypeScript backend development
+- Clean architecture patterns
+- Multi-tenant design
+- Idempotent APIs
+- Deterministic system behavior
 
 ---
 
-##  Tech & Approach
+## Active Projects
 
-I build things that are:
+### Ledger System
+Transactional income/expense tracking system focused on:
+- Schema-first design
+- Integrity guarantees
+- Reporting logic
 
-- **Fast, maintainable, secure**
-- Modular and easy to expand
-- Tailored to real workflows — not cookie-cutter solutions
-
-**Technologies I work with:**
-- Backend: Python, REST APIs
-- Frontend: HTML, CSS, JavaScript
-- Automation & workflows
-- Secure system design
-
----
-
-##  Featured Projects
- [Live Portfolio](https://belovedjohndev.github.io)  
-(Showcases systems built for travel agencies, organizations, business owners, and more.)
+### SaaS Backend Skeleton (WIP)
+Exploring:
+- Tenant isolation
+- Explicit domain modeling
+- DB-enforced correctness
 
 ---
 
-##  Let’s Collaborate
-I’m available for contract work and projects that need a **custom, code-first solution**.  
-Reach out via GitHub or use the contact links on my portfolio.
+## Principles
+
+- Learn by building
+- Understand every layer
+- DB constraints over assumptions
+- Explicit > implicit
 
 ---
 
-## 🔗 Quick Links
--  Portfolio: https://belovedjohndev.github.io  
--  GitHub: https://github.com/belovedjohndev
+Building slowly. Building correctly.
