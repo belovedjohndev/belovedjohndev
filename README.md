@@ -20,7 +20,7 @@ I focus on systems that need clear data models, transactional integrity, tenant 
 
 ## Active Projects
 
-### AI Discovery Call Assistant
+### Discovery Call Assistant
 
 A private tool for capturing client discovery calls, manual notes, transcript segments, requirements, and structured call history.
 
