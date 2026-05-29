@@ -1,73 +1,96 @@
 # John Paul Libagh
 
-Backend-focused developer building production-style systems with TypeScript, PostgreSQL, and clean architecture.
+Full-stack custom web developer building production-grade business systems with TypeScript, PostgreSQL, React, Astro, and clean architecture.
 
-I focus on systems that need clear data models, transactional integrity, tenant isolation, and predictable behavior.
+I build custom-coded web applications for businesses that need reliable workflows, clear data models, secure access control, and maintainable systems.
 
 ---
 
-## Current Focus
+## What I Build
 
-- PostgreSQL schema design, constraints, indexing, and transactions
-- TypeScript backend development
-- Clean / hexagonal architecture
-- Multi-tenant application design
-- Idempotent API workflows
-- Deterministic business logic
-- Security-first system design
+- Multi-tenant SaaS platforms
+- Client portals and admin dashboards
+- Lead capture and estimator tools
+- Booking and availability systems
+- Internal business operations tools
+- CRM-style workflows and automation systems
+
+---
+
+## Core Stack
+
+- **Backend:** TypeScript, Node.js, Express
+- **Database:** PostgreSQL, schema-first design, constraints, transactions
+- **Frontend:** React, Vite, Astro
+- **Architecture:** Clean/Hexagonal architecture, domain/application/infrastructure separation
+- **Security:** tenant scoping, authorization, HttpOnly sessions, validation, audit-friendly flows
+- **Deployment:** Vercel, Render, Neon, Cloudflare
 
 ---
 
 ## Active Projects
 
-### Discovery Call Assistant
-
-A private tool for capturing client discovery calls, manual notes, transcript segments, requirements, and structured call history.
-
-Focus areas:
-
-- Tenant-scoped call records
-- Manual and transcript-based note capture
-- Deterministic sequence numbering
-- Structured requirement extraction
-- Production-style frontend/backend separation
-
 ### Multi-Tenant Estimate Engine
 
-A reusable lead capture and estimate engine for service businesses.
+Reusable lead capture and estimate engine for service businesses.
 
-Focus areas:
-
-- Tenant-specific configuration
+**Highlights:**
+- Multi-tenant configuration
 - PostgreSQL-backed pricing rules
-- Embeddable widget flow
-- Lead persistence
+- Embeddable widget
+- Lead capture workflow
 - API-driven estimate generation
+- Portal foundation for tenants
+
+**Tech:** TypeScript, PostgreSQL, React, Vite, Express
+
+---
+
+### Discovery Call Assistant
+
+Private tool for capturing client discovery calls, manual notes, transcript segments, requirements, and structured call history.
+
+**Highlights:**
+- Tenant-scoped call records
+- Manual and transcript-based note capture
+- Requirement extraction
+- Deterministic sequence numbering
+- Clean frontend/backend separation
+
+**Tech:** TypeScript, PostgreSQL, React, Vite, Express
+
+---
 
 ### Personal Finance Ledger
 
-A transactional income and expense tracking system focused on correctness.
+Transactional income and expense tracking system focused on correctness.
 
-Focus areas:
-
-- Schema-first design
+**Highlights:**
+- Schema-first financial records
 - Database constraints
-- Reporting logic
-- Balance calculation
-- Data integrity
+- Balance calculation logic
+- Reporting foundation
+- Data integrity rules
+
+**Tech:** TypeScript, PostgreSQL
 
 ---
 
 ## Engineering Principles
 
 - Schema first
-- Explicit domain modeling
-- Database constraints over application assumptions
+- Explicit domain models
+- Database constraints over app-only assumptions
 - Transactions where correctness matters
-- Idempotent operations where applicable
-- Clear separation between domain, application, infrastructure, and presentation layers
-- Explicit behavior over hidden magic
+- Tenant scoping and authorization by default
+- Idempotent operations where useful
+- Clear separation between domain, application, infrastructure, and HTTP layers
+- Predictable behavior over hidden magic
 
 ---
 
-Building slowly. Building correctly.
+## Selected Links
+
+- Portfolio: https://belovedjohndev.com
+- Estimate Engine Demo: https://demo.belovedjohndev.com
+- Estimate Engine Portal: https://portal.belovedjohndev.com
