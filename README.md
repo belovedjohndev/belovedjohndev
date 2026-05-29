@@ -24,7 +24,7 @@ I build custom-coded web applications for businesses that need reliable workflow
 - **Frontend:** React, Vite, Astro
 - **Architecture:** Clean/Hexagonal architecture, domain/application/infrastructure separation
 - **Security:** tenant scoping, authorization, HttpOnly sessions, validation, audit-friendly flows
-- **Deployment:** Vercel, Render, Neon, Cloudflare
+- **Deployment:** Vercel, Render, Neon, Cloudflare, Supabase
 
 ---
 
